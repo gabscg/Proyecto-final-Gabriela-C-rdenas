@@ -1,0 +1,209 @@
+/*General*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	border-bottom: solid #e8f6f4;
+
+}
+
+body{
+	background-color: white;
+	font-family: 'Urbanist', sans-serif;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	
+	display: inline-block;
+
+}
+
+/*header*/
+header{
+	background-color: #20a78f;
+	margin-bottom: 10px;
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	top: 0vh;
+
+}
+
+nav{
+
+	display: inline-block;
+	padding: 10px;
+
+}
+
+
+nav li{
+	margin-right: 20px;
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+}
+
+.navbar a{
+	color: white;
+}
+
+.logo{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+
+
+/*main*/
+
+main{
+	margin-top: 11vh;
+	margin-bottom:0vh;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+}
+
+input{
+	width: 80%;
+	height: 50px;
+	background-color: #edf2f4;
+	color: #848da0;
+	border: 2px #edf2f4;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+input [type=text] {
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+
+
+}
+
+textarea{
+	width: 80%;
+	height: 200px;	
+	background-color: #edf2f4;
+	color: #848da0;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 2px #edf2f4;
+	resize: none;
+
+}
+
+input[type=submit]{
+	background-color: #20a78f;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+h2{
+color: #2a3752;
+}
+
+/*footer*/
+footer{
+
+	background-color: #e8f6f4;
+	bottom: 0vh;
+	padding: 15px;
+	box-sizing: border-box;
+	width: 100%;
+	
+}
+
+.redessociales a{
+	color: #657087	;
+}
+.redessociales a:hover{
+	color: #20a78f	;
+}
+.redessociales{
+	font-size: 20px;
+
+}	
+
+.redessociales li{
+	margin-left: 10px;
+}
+
+.loultimo{
+	text-align: center;
+	color: #657087	;	
+}
+
+/*media Quaries*/
+
+@media only screen and (min-width: 992px){
+
+/*header*/
+
+header{
+	
+	padding: 15px;
+	width: 23%;
+	height: 100vh;
+	left: 0vh;
+	
+
+}
+
+nav li{
+	margin-right: 20px;
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+	display: block;
+	margin-top: 40px;
+
+}
+
+/*main*/
+main{
+	margin-top: 0vh;
+	margin-bottom:0vh;
+	padding-top: 40px;
+	padding-bottom: 8%;
+	width:77%;
+	height: 100vh;
+	margin-left: 23%;
+	display: inline-block;
+
+
+}
+
+main div{
+	display: inline-block;
+}
+
+input, textarea{
+	width: 60%;
+
+}
+
+
+.form{
+	margin-left: 15%;
+}

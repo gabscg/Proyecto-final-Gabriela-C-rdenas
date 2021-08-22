@@ -1,0 +1,233 @@
+/*General*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  border-bottom: solid #e8f6f4;
+
+}
+
+body{
+  background-color: white;
+  font-family: 'Urbanist', sans-serif;
+
+}
+
+
+
+li{
+  
+  display: inline-block;
+
+}
+
+
+/*header*/
+header{
+  background-color: #20a78f;
+  margin-bottom: 10px;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0vh;
+
+}
+
+nav{
+
+  display: inline-block;
+  padding: 10px;
+
+}
+
+
+nav li{
+  margin-right: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a{
+  color: white;
+}
+
+.logo{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+/*Main*/
+
+main{
+  margin-top: 11vh;
+  margin-bottom:0vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+ul {
+  list-style-type: circle;
+
+}
+
+h2 {
+color: #2a3752;
+}
+
+p, ul{
+  color: #8d99ae;
+  font-size: 17px;
+
+}
+
+h3{
+  color: #657087;
+}
+
+svg, .h41{
+  color:#20a78f ;
+}
+
+h4{
+  color: #586278;
+}
+
+#caja1, #caja2, #caja5{
+
+  box-sizing: border-box;
+  width: 85%;
+  margin: auto;
+}
+
+#caja3 h3,h4,p{
+  margin-bottom: 10px;
+}
+
+#caja4 h3,h4,p{
+  margin-bottom: 10px;
+}
+
+#caja1{
+  border: solid white;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 gray;
+}
+
+#caja2{
+  border: solid white;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 gray;
+}
+
+#caja5{
+  border: solid white;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 gray;
+}
+
+#caja5 h2{
+  padding-bottom: 15px;
+}
+
+#caja5 li{
+  display: block;
+  list-style-type: square;
+}
+
+/*Footer*/
+
+footer{
+
+  background-color: #e8f6f4;
+  bottom: 0vh;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  
+}
+
+.redessociales a{
+  color:#657087;
+}
+.redessociales a:hover{
+  color: #20a78f;
+}
+.redessociales{
+  font-size: 20px;
+  color:#657087;
+} 
+
+.redessociales li{
+  margin-left: 10px;
+}
+
+.loultimo{
+  text-align: center;
+  color: #657087; 
+}
+
+.loultimo h4,p{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+/*media Quaries*/
+
+@media only screen and (min-width: 992px){
+
+/*header*/
+
+header{
+  
+  padding: 15px;
+  width: 23%;
+  height: 100vh;
+  left: 0vh;
+  
+
+}
+
+nav li{
+  margin-right: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-top: 40px;
+
+}
+
+/*main*/
+main{
+  margin-top: 0vh;
+  margin-bottom:0vh;
+  padding-top: 40px;
+  padding-bottom: 8%;
+  width:77%;
+  height: 160vh;
+  margin-left: 23%;
+  display: inline-block;
+ 
+
+}
+
+footer{
+  
+  bottom: 0%;
+  height: 15%;  
+}
+
+}

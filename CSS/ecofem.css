@@ -1,0 +1,176 @@
+/*General*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	border-bottom: solid #e8f6f4;
+
+}
+
+body{
+	background-color: white;
+	font-family: 'Urbanist', sans-serif;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	
+	display: inline-block;
+
+}
+
+
+
+/*main*/
+.ecofem{
+	margin-top: 0vh;
+	margin-bottom:0vh;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+
+h2{
+	color: #2a3752;
+
+}
+
+
+h3{
+	color: #20a78f;
+}
+
+#caja1, #caja3 p{
+	color: #a2acbd;
+}
+
+
+h2, #caja1, #caja2, #caja3, #caja4{
+	margin-left: 30px;
+}
+
+#caja1, #caja2, #caja3, #caja4{
+	box-sizing: border-box;
+  	width: 85%;
+  	margin: auto;
+}
+
+#caja1, #caja3{
+  border: solid white;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 gray;
+}
+
+#caja2, #caja4{
+	border: solid white;
+  	padding: 15px;
+  	border-radius: 20px;
+	box-shadow:  10px 5px 0 0 #20a78f;
+	background-color: #edf2f4;
+
+}
+
+#caja2, #caja4 p{
+	color: #657087;
+}
+
+#caja5{
+	border: solid white;
+  	padding: 20px;
+  	border-radius: 20px;
+	background-color: #edf2f4;
+	width: 80vw;
+	margin-top: 50%;
+	position: relative;
+	left: 10%;
+	bottom: 20px;
+
+
+}
+
+#caja5 h3{
+	color: #6d788d;
+}
+
+#tools, #date p, a{
+	color:#909cb0;
+}
+
+
+
+
+/*footer*/
+footer{
+
+	background-color: #e8f6f4;
+	bottom: 0vh;
+	padding: 15px;
+	box-sizing: border-box;
+	width: 100%;
+	
+	
+}
+
+
+.redessociales a{
+	color: #657087	;
+}
+.redessociales a:hover{
+	color: #20a78f	;
+}
+.redessociales{
+	font-size: 20px;
+
+}	
+
+.redessociales li{
+	margin-left: 10px;
+}
+
+.loultimo{
+	text-align: center;
+	color: #657087	;	
+}
+
+/*media Quaries*/
+
+@media only screen and (min-width: 992px){
+
+#caja1, #caja2, #caja3, #caja4{
+	box-sizing: border-box;
+  	width: 60%;
+  	margin-left: 10%;
+}
+
+h2{
+	margin-left: 10%;
+}
+
+
+#caja5{
+	position: absolute;
+	left: 75%;
+	bottom: 48%;
+	width: 20%;
+	height: 17vw;
+	
+}
+
+main{
+	
+	height: 250vh;
+}
+}

@@ -1,0 +1,420 @@
+/*General*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	border-bottom: solid #e8f6f4;
+
+}
+
+body{
+	background-color: white;
+	font-family: 'Urbanist', sans-serif;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	
+	display: inline-block;
+
+}
+
+
+/*header*/
+header{
+	background-color: #20a78f;
+	margin-bottom: 10px;
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	top: 0vh;
+
+}
+
+nav{
+
+	display: inline-block;
+	padding: 10px;
+
+}
+
+
+nav li{
+	margin-right: 20px;
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+}
+
+.navbar a{
+	color: white;
+}
+
+.logo{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+
+
+/*main*/
+
+main{
+	margin-top: 11vh;
+	margin-bottom:0vh;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 20px;
+}
+
+#cansat{
+	box-sizing: border-box;
+	width: 80vw;
+	margin: auto;
+	padding-bottom: 10px;
+	
+}
+#cansatimg:hover img{
+	opacity: 0.3;
+}
+
+#cansatimg:hover .middle{
+	opacity: 1;
+}
+
+#cansatimg{
+	width: 78vw;
+	height: 50vw;
+	margin: auto;
+}
+
+#cansatimg img{
+	display: block;
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	box-shadow: 0 4px 8px 0 gray;
+	
+}
+
+
+#ceko{
+	box-sizing: border-box;
+	width: 80vw;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+#cekoimg{
+	width: 78vw;
+	height: 50vw;
+	margin: auto;
+}
+
+
+#ceko img {
+	display: block;
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	box-shadow: 0 4px 8px 0 gray;
+}
+
+#cekoimg:hover img{
+	opacity: 0.3;
+}
+
+#cekoimg:hover .middle{
+	opacity: 1;
+}
+
+#ecofem{
+	box-sizing: border-box;
+	width: 80vw;
+	margin: auto;
+	padding-bottom: 10px;	
+}
+
+#ecofemimg{
+	width: 78vw;
+	height: 55vw;
+	margin: auto;
+}
+
+#ecofem img {
+	display: block;
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	box-shadow: 0 4px 8px 0 gray;
+}
+
+#ecofemimg:hover img{
+	opacity: 0.3;
+}
+
+#ecofemimg:hover .middle{
+	opacity: 1;
+}
+
+#excel{
+	box-sizing: border-box;
+	width: 80vw;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+#excelimg{
+	width: 78vw;
+	height: 50vw;
+	margin: auto;
+}
+
+
+#excel img {
+	display: block;
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	box-shadow: 0 4px 8px 0 gray;
+}
+
+#excelimg:hover img{
+	opacity: 0.3;
+}
+
+#excelimg:hover .middle{
+	opacity: 1;
+}
+
+#diseñoweb{
+	box-sizing: border-box;
+	width: 80vw;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+#diseñowebimg{
+	width: 78vw;
+	height: 50vw;
+	margin: auto;
+}
+
+#diseñoweb img {
+	display: block;
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	box-shadow: 0 4px 8px 0 gray;
+}
+#diseñowebimg:hover img{
+	opacity: 0.3;
+}
+
+#diseñowebimg:hover .middle{
+	opacity: 1;
+}
+#cansat, #ceko, #ecofem, #Excel, #diseñoweb{
+	margin-bottom: 40px;
+}
+
+#cansat{
+	margin-top: 30px;
+}
+
+
+.titulo{
+	color: #2a3752;
+}
+
+div a{
+	color: #657087;
+}
+
+.middle,{
+	transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+
+.icono, .icono2{
+	color: #2a3752;
+
+}
+
+/*footer*/
+footer{
+
+	background-color: #e8f6f4;
+	bottom: 0vh;
+	padding: 15px;
+	box-sizing: border-box;
+	width: 100%;
+	
+}
+
+.redessociales a{
+	color: #657087	;
+}
+.redessociales a:hover{
+	color: #20a78f	;
+}
+.redessociales{
+	font-size: 20px;
+
+}	
+
+.redessociales li{
+	margin-left: 10px;
+}
+
+.loultimo{
+	text-align: center;
+	color: #657087	;	
+}
+
+/*media Quaries*/
+
+@media only screen and (min-width: 992px){
+
+/*header*/
+
+header{
+	
+	padding: 15px;
+	width: 20%;
+	height: 100vh;
+	left: 0vh;
+	
+
+}
+
+nav li{
+	margin-right: 20px;
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+	display: block;
+	margin-top: 40px;
+
+}
+
+/*main*/
+main{
+	margin-top: 0vh;
+	margin-bottom:0vh;
+	padding-top: 40px;
+	padding-bottom: 8%;
+	width:77%;
+	height: 110vh;
+	margin-left: 22%;
+	display: inline-block;
+	
+
+}
+
+#cansat{
+	box-sizing: border-box;
+	width: 25vw;
+	margin: auto;
+	padding-bottom: 10px;
+	position: absolute;
+	left: 23%;
+	top: 100px;
+	
+}
+
+#cansatimg{
+	width: 24vw;
+	height: 15vw;
+	margin: auto;
+}
+
+#ceko{
+	box-sizing: border-box;
+	width: 25vw;
+	margin: auto;
+	padding-bottom: 10px;
+	position: absolute;
+	left: 49%;
+	top: 100px;
+	
+}
+
+#cekoimg{
+	width: 24vw;
+	height: 15vw;
+	margin: auto;
+}
+
+#ecofem{
+	box-sizing: border-box;
+	width: 25vw;
+	margin: auto;
+	padding-bottom: 10px;
+	position: absolute;
+	left: 75%;
+	top: 100px;
+	
+}
+
+#ecofemimg{
+	width: 24vw;
+	height: 15vw;
+	margin: auto;
+}
+
+#excel{
+	box-sizing: border-box;
+	width: 25vw;
+	margin: auto;
+	padding-bottom: 10px;
+	position: absolute;
+	left: 23%;
+	top: 400px;
+	
+}
+
+#excelimg{
+	width: 24vw;
+	height: 15vw;
+	margin: auto;
+}
+
+#diseñoweb{
+	box-sizing: border-box;
+	width: 25vw;
+	margin: auto;
+	padding-bottom: 10px;
+	position: absolute;
+	left: 49%;
+	top: 400px;
+	
+}
+
+#diseñowebimg{
+	width: 24vw;
+	height: 15vw;
+	margin: auto;
+}
